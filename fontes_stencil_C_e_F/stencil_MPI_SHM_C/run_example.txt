@@ -1,0 +1,17 @@
+0		  1 2 3 4  5         6   7         8 9     10   11
+submit.sh 1 1 1 01 BROADWELL MPI stencil.c c pgiO3 4800 500
+
+
+0: script para submissao;
+1: total # de processos MPI
+2: # de proc/nos
+3: # de nos
+4: # do experimento
+5: tipo do proc: so funciona para BROADWELL
+6: MPI ou OPENMP, so funciona para MPI
+7: codigo fonte a ser compilado e submetido
+8: tipo da linguagem: C ou F90
+9: label para diferenciar rodadas no mesmo experimento
+10: nxgrid
+11: niters
+
